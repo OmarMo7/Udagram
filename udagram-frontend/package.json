@@ -3,17 +3,14 @@
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
-  "engines" : { 
-    "npm" : ">=7.0.0",
-    "node" : ">=16.0.0"
-  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy":"chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
   },
   "private": true,
   "dependencies": {
