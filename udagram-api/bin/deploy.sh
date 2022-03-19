@@ -1,8 +1,8 @@
 
-eb init Udagram --platform node.js --region us-east-1 
-eb create --sample Udagram-env
+eb init Udagram3 --platform node.js --region us-east-1 
+eb create --sample Udagram3-env
 
-eb use Udagram-env
-eb deploy Udagram-env
+eb use Udagram3-env
+eb deploy Udagram3-env
 
 eb setenv AWS_ACCESS_KEY_ID="$AWS_ACCESS_KEY_ID" AWS_SECRET_ACCESS_KEY="$AWS_SECRET_ACCESS_KEY" POSTGRES_USERNAME="$POSTGRES_USERNAME" POSTGRES_PASSWORD="$POSTGRES_PASSWORD" POSTGRES_DB="$POSTGRES_DB" PORT="$PORT" MYPORTDB="$MYPORTDB" POSTGRES_HOST="$POSTGRES_HOST" AWS_REGION="$AWS_REGION" AWS_PROFILE="$AWS_PROFILE" AWS_BUCKET="$AWS_BUCKET" JWT_SECRET="$JWT_SECRET"
