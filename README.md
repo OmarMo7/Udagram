@@ -63,3 +63,11 @@ The e2e tests are using Protractor and Jasmine.
 ## License
 
 [License](LICENSE.txt)
+
+## Accessing the website
+
+You can access the deployed app through this link >> [Udagram](http://udagram-angular.s3-website-us-east-1.amazonaws.com).
+
+## Github
+
+The link of the repo on github [Repo](https://github.com/OmarMo7/Udagram).
